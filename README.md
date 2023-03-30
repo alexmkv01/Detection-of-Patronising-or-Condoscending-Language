@@ -5,7 +5,7 @@ This project involves developing a binary classification model to predict whethe
 Implement a transformer-based model that outperforms the task's RoBERTa-base baseline (provided by the task organisers) in F1 score. The RoBERTa-baseline achieved 0.48 on the official dev dataset, and 0.49 on the test set.
 
 ## Methodology
-### 1) Data analysis of the training data
+### 1) Data analysis
 This included a written analysis of the training data and a qualitative assessment of the dataset, considering the difficulty and subjectivity of the task. To assist our analysis we plotted the correlation of various features such as the length of the next, the amount of punctuation in the text, etc against the class label. 
 
 ### 2) Modelling
@@ -14,3 +14,13 @@ Our final model was DeBerta-base which achieved an F1 score on the test set of 0
 
 ### 3) Analysis
 A comprehensive analysis of the model performance is available in the report.
+
+## Software + Libraries
+* Python
+* PyTorch
+* Pandas
+* Matplotlib
+* HuggingFace
+* Scikit-Learn
+* Transformers
+* Datasets
